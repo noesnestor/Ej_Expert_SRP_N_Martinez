@@ -37,13 +37,34 @@ Conocer su especialidad
 --------------------------
 
 Clase:
-Validador
+"ValidadorMedico"
 
 Responsabilidades:
-Validar que los datos introducidos por cada clase son correctos.
+Validar que los datos introducidos para la clase "Medico" sean correctos.
+
+Colaboradores:
+Medico
+
+--------------------------
+
+Clase:
+"ValidadorPaciente"
+
+Responsabilidades:
+Validar que los datos introducidos para la clase "Paciente" sean correctos.
 
 Colaboradores:
 Paciente
-Medico
+
+--------------------------
+
+Clase:
+"ValidadorAppointmentService"
+
+Responsabilidades:
+Validar que los datos introducidos para la clase "AppointmentService" sean correctos.
+
+Colaboradores:
 AppointmentService
+
 
